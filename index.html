@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html style="background-color: blueviolet;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color:black ;text-align: center; "  >
+        <h1 style="color:white;text-align: center;">ODD or EVEN</h1>
+        
+        <input type="number" name="" id="b1" placeholder="Enter Number" ><br>
+        <br>
+        <button style="background-color: blue; width: 160px;height: 20px;" type="button" onclick="numCheck()">CHECK</button>
+    </div>
+
+</body>
+<script>
+    function numCheck(){
+        num=parseInt(b1.value)
+        
+ if (num%2==0 ) {
+    alert(`even ${num}`)
+
+}
+  else{
+    alert(`odd ${num}`)
+
+  }  
+
+    }
+</script>
+</html>
